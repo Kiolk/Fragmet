@@ -11,9 +11,5 @@ import comkiolk.github.fragmetservice.R;
 
 public class Fragment2 extends Fragment {
 
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment2, null);
-    }
+
 }
