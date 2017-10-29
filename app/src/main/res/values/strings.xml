@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FragmentService</string>
+    <string name="add_button">Add fragment1</string>
+    <string name="remove_button">Remove fragment1</string>
+    <string name="replace_button">Replace on fragment2</string>
+    <string name="stack_back">Stack back</string>
+    <string name="hello">Hello</string>
+    <string name="start_service1">Start service 1</string>
+    <string name="TEXT_1">Text 1</string>
+    <string name="TEXT_2">Text 2</string>
+    <string name="TEXT_3">Text 3</string>
+    <string name="TASK1_START">Task 1 start</string>
+    <string name="TASK2_START">Task 2 start</string>
+    <string name="TASK3_START">Task 3 start</string>
+    <string name="TASK1_FINISH">Task 1 finish</string>
+    <string name="TASK2_FINISH">Task 2 finish</string>
+    <string name="TASK3_FINISH">Task 3 finish</string>
+</resources>

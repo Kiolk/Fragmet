@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="comkiolk.github.fragmetservice.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="3">
+
+        <Button
+            android:id="@+id/add_fragment_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/add_button"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/del_fragment_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/remove_button"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/repl_fragment_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/replace_button"
+            android:layout_weight="1"/>
+        <CheckBox
+            android:id="@+id/stack_check_box"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/stack_back"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_1_text_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/TEXT_1"/>
+        <TextView
+            android:id="@+id/text_2_text_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/TEXT_2"/>
+        <TextView
+            android:id="@+id/text_3_text_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/TEXT_3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <Button
+            android:id="@+id/start_service_1_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/start_service1"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
